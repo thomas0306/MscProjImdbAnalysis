@@ -12,6 +12,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.log4j.Logger;
 import topk.TopKDriver;
 
+import java.net.URI;
 import java.util.concurrent.TimeUnit;
 
 
@@ -29,7 +30,7 @@ public class FindCliqueN {
             throw new Exception("N is too large! (" + n + ")");
         }
 
-        FileSystem hdfs = FileSystem.get(new Configuration());
+        FileSystem hdfs = FileSystem.get(/*new URI("hdfs://quickstart.cloudera:8020"), */new Configuration());
 
         // Initial filtering
         if (!hdfs.exists(new Path("output_actorset1/"))) {
@@ -47,8 +48,8 @@ public class FindCliqueN {
         }
 
         // Start from the largest available actorset
-        for (int i = currentN + 1; i <= n; i++) {
-            String[] ActorsetGeneratorArgs = {"output_actorset1/part-r-00000", "output_actorset" + (i - 1) + "/", "output_actorset" + i + "/"};
+        for (int i = currentN; i < n; i++) {
+            String[] ActorsetGeneratorArgs = {"output_actorset1/part-r-00000", "output_actorset" + i + "/", "output_actorset" + (i + 1) + "/"};
             ActorsetGeneratorDriver.main(ActorsetGeneratorArgs);
         }
 
