@@ -1,18 +1,18 @@
 package topk;
 
+import com.google.common.collect.TreeMultimap;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import util.Util;
 
 import java.io.IOException;
-import java.util.TreeMap;
 
 /**
  * Created by Thomas on 17/6/2017.
  */
 public class TopKMapper extends Mapper<Text, Text, NullWritable, Text> {
-    private TreeMap<Float, Text> ratingsTree = new TreeMap<Float, Text>();
+    private TreeMultimap<Float, Text> ratingsTree = TreeMultimap.create();
 
     @Override
     public void map (Text key, Text value, Context context) throws IOException, InterruptedException {
@@ -21,7 +21,8 @@ public class TopKMapper extends Mapper<Text, Text, NullWritable, Text> {
         ratingsTree.put(rating, new Text(value.toString() + "|" + key.toString()));
 
         if (ratingsTree.size() > Util.topK) {
-            ratingsTree.remove(ratingsTree.firstKey());
+            float firstKey = ratingsTree.keySet().first();
+            ratingsTree.remove(firstKey, ratingsTree.get(firstKey).first());
         }
     }
 
