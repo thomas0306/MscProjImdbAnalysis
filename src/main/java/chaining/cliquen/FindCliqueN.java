@@ -49,12 +49,12 @@ public class FindCliqueN {
 
         // Start from the largest available actorset
         for (int i = currentN; i < n; i++) {
-            String[] ActorsetGeneratorArgs = {"output_actorset1/part-r-00000", "output_actorset" + i + "/", "output_actorset" + (i + 1) + "/"};
+            String[] ActorsetGeneratorArgs = {"output_actorset1/part-r-", "output_actorset" + i + "/", "output_actorset" + (i + 1) + "/"};
             ActorsetGeneratorDriver.main(ActorsetGeneratorArgs);
         }
 
         // Averaging
-        String[] AverageDriverArgs = {"output_datacleaning/ratings-m-00000", "output_actorset" + n + "/", "output_avg_actorset" + n + "/"};
+        String[] AverageDriverArgs = {"output_datacleaning/ratings-m-", "output_actorset" + n + "/", "output_avg_actorset" + n + "/"};
         AverageDriver.main(AverageDriverArgs);
 
         // Top K
@@ -62,7 +62,7 @@ public class FindCliqueN {
         TopKDriver.main(TopKDriverArgs);
 
         // Name Lookup
-        String[] NameLookupDriverArgs = {"output_datacleaning/actors-m-00000", "output_topk_actorset" + n + "/", "output_topk_name" + n + "/"};
+        String[] NameLookupDriverArgs = {"output_datacleaning/actors-m-", "output_topk_actorset" + n + "/", "output_topk_name" + n + "/"};
         NameLookupDriver.main(NameLookupDriverArgs);
 
         logger.info("Time of execution in milliseconds: " + stopwatch.stop().elapsedTime(TimeUnit.MILLISECONDS));

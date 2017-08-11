@@ -16,6 +16,7 @@ import util.Util;
 public class ActorsetGeneratorDriver {
     public static void main (String[] args) throws Exception {
         Configuration conf = new Configuration();
+        conf.set("mapred.max.split.size", "500000");
 
         // put small table into distributed cache
         Util.addCacheFile(args[0], conf);

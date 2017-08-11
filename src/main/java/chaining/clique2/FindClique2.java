@@ -17,11 +17,11 @@ public class FindClique2 {
         InitialFilteringDriver.main(InitialFilteringArgs);
 
         // Actorset Generation
-        String[] ActorsetGeneratorArgs = {"output_initialfiltering/part-r-00000/", "output_initialfiltering/", "output_actorset2/"};
+        String[] ActorsetGeneratorArgs = {"output_initialfiltering/part-r-00000", "output_initialfiltering/", "output_actorset2/"};
         ActorsetGeneratorDriver.main(ActorsetGeneratorArgs);
 
         // Averaging
-        String[] AverageDriverArgs = {"output_datacleaning/ratings-m-00000/", "output_actorset2/", "output_avg_actorset2/"};
+        String[] AverageDriverArgs = {"output_datacleaning/ratings-m-00000", "output_actorset2/", "output_avg_actorset2/"};
         AverageDriver.main(AverageDriverArgs);
 
         // Top K

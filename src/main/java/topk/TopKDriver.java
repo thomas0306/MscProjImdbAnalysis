@@ -16,6 +16,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 public class TopKDriver {
     public static void main (String[] args) throws Exception {
         Configuration conf = new Configuration();
+        conf.set("mapred.max.split.size", "2000000");
 
         Job job = new Job(conf, "TopKDriver");
         job.setJarByClass(TopKDriver.class);

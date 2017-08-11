@@ -16,6 +16,7 @@ import util.Util;
 public class NameLookupDriver {
     public static void main (String[] args) throws Exception {
         Configuration conf = new Configuration();
+        conf.set("mapred.max.split.size", "2000000");
 
         Util.addCacheFile(args[0], conf);
 

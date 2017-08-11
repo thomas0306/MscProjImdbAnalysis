@@ -1,10 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8b9a9d-dbbb-41f0-8a71-9dea47379314" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/in2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/in3.txt" />
+    <list default="true" id="bf8b9a9d-dbbb-41f0-8a71-9dea47379314" name="Default" comment="Update Top-k driver: solve unique key in map problem">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset1/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset1/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset1/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset1/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset2/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset2/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset2/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset2/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset3/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset3/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset3/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset3/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset4/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset4/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset4/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_actorset4/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_avg_actorset4/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_avg_actorset4/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_avg_actorset4/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_avg_actorset4/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/.actin-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/.actors-m-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/.ratings-m-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/actin-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/actors-m-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_datacleaning/ratings-m-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_initialfiltering/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_initialfiltering/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_initialfiltering/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_initialfiltering/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_actorset4/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_actorset4/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_actorset4/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_actorset4/part-r-00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_name4/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_name4/.part-r-00000.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_name4/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output_topk_name4/part-r-00000" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/actorset/actorsetgenerator/ActorsetGeneratorDriver.class" afterPath="$PROJECT_DIR$/target/classes/actorset/actorsetgenerator/ActorsetGeneratorDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/actorset/actorsetgenerator/ActorsetGeneratorMapper.class" afterPath="$PROJECT_DIR$/target/classes/actorset/actorsetgenerator/ActorsetGeneratorMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/actorset/actorsetgenerator/ActorsetGeneratorReducer.class" afterPath="$PROJECT_DIR$/target/classes/actorset/actorsetgenerator/ActorsetGeneratorReducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/actorset/initialfiltering/InitialFilteringDriver.class" afterPath="$PROJECT_DIR$/target/classes/actorset/initialfiltering/InitialFilteringDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/actorset/initialfiltering/InitialFilteringMapper.class" afterPath="$PROJECT_DIR$/target/classes/actorset/initialfiltering/InitialFilteringMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/averaging/AverageDriver.class" afterPath="$PROJECT_DIR$/target/classes/averaging/AverageDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/averaging/AverageMapper.class" afterPath="$PROJECT_DIR$/target/classes/averaging/AverageMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/chaining/clique2/FindClique2.class" afterPath="$PROJECT_DIR$/target/classes/chaining/clique2/FindClique2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/chaining/cliquen/FindCliqueN.class" afterPath="$PROJECT_DIR$/target/classes/chaining/cliquen/FindCliqueN.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cleaning/DataCleaningDriver.class" afterPath="$PROJECT_DIR$/target/classes/cleaning/DataCleaningDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cleaning/DataCleaningMapper.class" afterPath="$PROJECT_DIR$/target/classes/cleaning/DataCleaningMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cleaning/DataCleaningReducer.class" afterPath="$PROJECT_DIR$/target/classes/cleaning/DataCleaningReducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/WordCount$IntSumReducer.class" afterPath="$PROJECT_DIR$/target/classes/example/WordCount$IntSumReducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/WordCount$TokenizerMapper.class" afterPath="$PROJECT_DIR$/target/classes/example/WordCount$TokenizerMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/WordCount.class" afterPath="$PROJECT_DIR$/target/classes/example/WordCount.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/namelookup/NameLookupDriver.class" afterPath="$PROJECT_DIR$/target/classes/namelookup/NameLookupDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/namelookup/NameLookupMapper.class" afterPath="$PROJECT_DIR$/target/classes/namelookup/NameLookupMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/topk/TopKDriver.class" afterPath="$PROJECT_DIR$/target/classes/topk/TopKDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/topk/TopKMapper.class" afterPath="$PROJECT_DIR$/target/classes/topk/TopKMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/topk/TopKReducer.class" afterPath="$PROJECT_DIR$/target/classes/topk/TopKReducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/CliqueCast.class" afterPath="$PROJECT_DIR$/target/classes/util/CliqueCast.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/Util.class" afterPath="$PROJECT_DIR$/target/classes/util/Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/msc-proj-imdb-analysis-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/msc-proj-imdb-analysis-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java" afterPath="$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringDriver.java" afterPath="$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/averaging/AverageDriver.java" afterPath="$PROJECT_DIR$/src/main/java/averaging/AverageDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/chaining/clique2/FindClique2.java" afterPath="$PROJECT_DIR$/src/main/java/chaining/clique2/FindClique2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/chaining/cliquen/FindCliqueN.java" afterPath="$PROJECT_DIR$/src/main/java/chaining/cliquen/FindCliqueN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cleaning/DataCleaningDriver.java" afterPath="$PROJECT_DIR$/src/main/java/cleaning/DataCleaningDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/namelookup/NameLookupDriver.java" afterPath="$PROJECT_DIR$/src/main/java/namelookup/NameLookupDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/topk/TopKDriver.java" afterPath="$PROJECT_DIR$/src/main/java/topk/TopKDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="MscProjImdbAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +112,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindCliqueN.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindCliqueN.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chaining/cliquen/FindCliqueN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="609">
+              <caret line="64" column="71" lean-forward="false" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindClique2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chaining/clique2/FindClique2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="19" column="79" lean-forward="false" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +134,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataCleaningDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningDriver.java">
+      <file leaf-file-name="TopKMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/topk/TopKMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="300">
+              <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitialFilteringDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorsetGeneratorDriver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="27" column="71" lean-forward="false" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorsetGeneratorMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -64,18 +189,8 @@
       <file leaf-file-name="AverageDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/averaging/AverageDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorsetGeneratorDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -115,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/main/java/itemset/actorsetgenerator/ActorsetGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/itemset/actorsetgenerator/ActorsetGeneratorMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/CliqueCast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/topk/TopKDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/namelookup/NameLookUpDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/averaging/AverageMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGenerator.java" />
@@ -125,19 +239,23 @@
         <option value="$PROJECT_DIR$/src/main/java/cleaning/DataCleaningReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cleaning/DataCleaning.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/WordCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/topk/TopKMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/topk/TopKReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/namelookup/NameLookupDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/cleaning/DataCleaningMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/namelookup/NameLookupMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chaining/clique2/FindClique2.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/Profiling.java" />
         <option value="$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/topk/TopKReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/topk/TopKMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/averaging/AverageDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/namelookup/NameLookupDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/topk/TopKDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cleaning/DataCleaningDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/chaining/cliquen/FindCliqueN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chaining/clique2/FindClique2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Util.java" />
+        <option value="$PROJECT_DIR$/output_topk_name2/part-r-00000" />
+        <option value="$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java" />
       </list>
     </option>
   </component>
@@ -252,7 +370,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,12 +399,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -886,56 +1004,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="4. AverageDriver" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="averaging.AverageDriver" />
-      <option name="VM_PARAMETERS" value="-Xmx4096m" />
-      <option name="PROGRAM_PARAMETERS" value="output_datacleaning/ratings-m-00000 output_actorset4/ output_avg_actorset4/" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MscProjImdbAnalysis" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="2. InitialFilteringDriver" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="actorset.initialfiltering.InitialFilteringDriver" />
       <option name="VM_PARAMETERS" value="-Xmx4096m" />
       <option name="PROGRAM_PARAMETERS" value="output_datacleaning/ output_initialfiltering" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MscProjImdbAnalysis" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="5. TopKDriver" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="topk.TopKDriver" />
-      <option name="VM_PARAMETERS" value="-Xmx4096m" />
-      <option name="PROGRAM_PARAMETERS" value="output_avg_actorset4/ output_topk_actorset4/" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MscProjImdbAnalysis" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="6. LookupNameDriver" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="namelookup.NameLookupDriver" />
-      <option name="VM_PARAMETERS" value="-Xmx4096m" />
-      <option name="PROGRAM_PARAMETERS" value="output_datacleaning/actors-m-00000/ output_topk_actorset4/ output_topk_name4/" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -991,6 +1064,51 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="4. AverageDriver" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="averaging.AverageDriver" />
+      <option name="VM_PARAMETERS" value="-Xmx4096m" />
+      <option name="PROGRAM_PARAMETERS" value="output_datacleaning/ratings-m-00000 output_actorset2/ output_avg_actorset2/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MscProjImdbAnalysis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="5. TopKDriver" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="topk.TopKDriver" />
+      <option name="VM_PARAMETERS" value="-Xmx4096m" />
+      <option name="PROGRAM_PARAMETERS" value="output_avg_actorset2/ output_topk_actorset2/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MscProjImdbAnalysis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="6. LookupNameDriver" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="namelookup.NameLookupDriver" />
+      <option name="VM_PARAMETERS" value="-Xmx4096m" />
+      <option name="PROGRAM_PARAMETERS" value="output_datacleaning/actors-m-00000/ output_topk_actorset2/ output_topk_name2/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MscProjImdbAnalysis" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="b. FindCliqueN" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="chaining.cliquen.FindCliqueN" />
@@ -1008,13 +1126,13 @@
     </configuration>
     <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Application.-1: WordCount" />
-      <item index="1" class="java.lang.String" itemvalue="Application.4. AverageDriver" />
-      <item index="2" class="java.lang.String" itemvalue="Application.2. InitialFilteringDriver" />
-      <item index="3" class="java.lang.String" itemvalue="Application.5. TopKDriver" />
-      <item index="4" class="java.lang.String" itemvalue="Application.6. LookupNameDriver" />
-      <item index="5" class="java.lang.String" itemvalue="Application.a. FindClique2" />
-      <item index="6" class="java.lang.String" itemvalue="Application.3. ActorsetGenerationDriver" />
-      <item index="7" class="java.lang.String" itemvalue="Application.1. DataCleaningDriver" />
+      <item index="1" class="java.lang.String" itemvalue="Application.2. InitialFilteringDriver" />
+      <item index="2" class="java.lang.String" itemvalue="Application.a. FindClique2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.3. ActorsetGenerationDriver" />
+      <item index="4" class="java.lang.String" itemvalue="Application.1. DataCleaningDriver" />
+      <item index="5" class="java.lang.String" itemvalue="Application.4. AverageDriver" />
+      <item index="6" class="java.lang.String" itemvalue="Application.5. TopKDriver" />
+      <item index="7" class="java.lang.String" itemvalue="Application.6. LookupNameDriver" />
       <item index="8" class="java.lang.String" itemvalue="Application.b. FindCliqueN" />
       <item index="9" class="java.lang.String" itemvalue="JUnit.All in MscProjImdbAnalysis" />
     </list>
@@ -1056,7 +1174,17 @@
       <workItem from="1497800978983" duration="586000" />
       <workItem from="1498664766328" duration="123000" />
       <workItem from="1498820750639" duration="8748000" />
+      <workItem from="1502372746323" duration="10037000" />
+      <workItem from="1502449551018" duration="6530000" />
     </task>
+    <task id="LOCAL-00001" summary="Update Top-k driver: solve unique key in map problem">
+      <created>1502386956225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502386956225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1083,7 +1211,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45188000" />
+    <option name="totallyTimeSpent" value="61755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1095,30 +1223,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="832" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36756757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36756757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36891893" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554054" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554217" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1143,6 +1271,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Top-k driver: solve unique key in map problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Top-k driver: solve unique key in map problem" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1162,7 +1294,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1171,34 +1303,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="50" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="70" lean-forward="false" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1242,17 +1346,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_initialfiltering/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/output_actorset/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/output_actorset4/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/output_actorset3/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CliqueCast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="76" column="33" lean-forward="false" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/averaging/AverageReducer.java" />
     <entry file="file://$PROJECT_DIR$/output_avg_actorset4/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/output_avg_actorset3/part-r-00000" />
@@ -1277,63 +1373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_avg_actorset2/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/output_topk_actorset2/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/topk/TopKMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/topk/TopKDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/namelookup/NameLookupDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_topk_name4/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/namelookup/NameLookupMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#453#470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/topk/TopKReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#387#402#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,66 +1388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chaining/clique2/FindClique2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="76" lean-forward="false" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/averaging/AverageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output_actorset2/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1415,27 +1402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/averaging/AverageDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output_datacleaning/actors-m-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,7 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,6 +1420,222 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="136" column="11" lean-forward="false" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CliqueCast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/averaging/AverageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/namelookup/NameLookupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_topk_actorset4/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_topk_actorset2/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_avg_actorset2/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_topk_name4/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/topk/TopKReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2-sources.jar!/com/google/common/collect/TreeMultimap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/namelookup/NameLookupDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/topk/TopKDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/averaging/AverageDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/topk/TopKMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/initialfiltering/InitialFilteringDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/fs/PathFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chaining/clique2/FindClique2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="79" lean-forward="false" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_initialfiltering/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="27" column="71" lean-forward="false" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chaining/cliquen/FindCliqueN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="64" column="71" lean-forward="false" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actorset/actorsetgenerator/ActorsetGeneratorDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1463,29 +1648,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cleaning/DataCleaningDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output_topk_name3/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+        <state relative-caret-position="210">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chaining/cliquen/FindCliqueN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

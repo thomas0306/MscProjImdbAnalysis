@@ -15,6 +15,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 public class DataCleaningDriver {
     public static void main (String[] args) throws Exception {
         Configuration conf = new Configuration();
+        conf.set("mapred.max.split.size", "2000000");
 
         Job job = new Job(conf, "DataCleaningDriver");
         job.setJarByClass(DataCleaningDriver.class);
