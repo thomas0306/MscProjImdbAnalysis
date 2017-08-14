@@ -62,9 +62,13 @@ public class CliqueCast {
             } else {
                 idx_b++;
             }
+
+            if (count >= n) {
+                return true;
+            }
         }
 
-        return count >= n;
+        return false;
     }
 
     public String[] combineActorIntoClique(String actors, String casts){
